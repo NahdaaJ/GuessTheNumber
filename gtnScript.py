@@ -13,7 +13,7 @@ import random
 def guessNum():
 
     # Generating a random integer, and assigning initial values.
-    randInt = random.randint(0,9)
+    randInt = random.randint(0,10)
     guess = 0
     playAgain = 0
     guessIteration = 0
@@ -44,7 +44,7 @@ def guessNum():
         playAgain = input("Would you like to play again? (Y/N) \n")
         if playAgain == "Y":
             guess = 0
-            randInt = random.randint(0, 9)
+            randInt = random.randint(0, 10)
             guessIteration = 0
 
 
